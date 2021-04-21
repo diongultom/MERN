@@ -11001,6 +11001,11 @@ a.text-gray-900:hover, a.text-gray-900:focus {
   color: #3252DF;
 }
 
+.brand-text-icon:hover {
+  color: #3252DF;
+  text-decoration: none;
+}
+
 header {
   border-bottom: 1px solid #e9ecef;
   width: 100%;
@@ -11011,13 +11016,17 @@ header .navbar {
   height: 80px;
 }
 
-header .navbar .navbar-nav li.nav-item a.nav-link {
+header .navbar ul.navbar-nav li.nav-item.active a.nav-link {
+  color: #3252DF;
+}
+
+header .navbar ul.navbar-nav li.nav-item a.nav-link {
   color: #152C5D;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-header .navbar .navbar-nav li.nav-item a.nav-link:hover {
+header .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
   text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
